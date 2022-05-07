@@ -17,3 +17,8 @@ class NotNumericException(Exception):
     def __init__(self):
         self.message = "A string is not a valid input!"
         super().__init__(self.message)
+
+class OverheatException(Exception):
+    def __init__(self):
+        super().__init__()
+
